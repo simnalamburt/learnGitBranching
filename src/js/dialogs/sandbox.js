@@ -382,37 +382,34 @@ exports.dialog = {
     type: 'ModalAlert',
     options: {
       markdowns: [
-        //'## Welcome to LearnGitBranching!',
-        '## Git 브랜치 배우기를 시작합니다!',
+        '## LearnGitBranching에 오신것을 환영합니다!',
         '',
-        // 'This application is designed to help beginners grasp ',
-        // 'the powerful concepts behind branching when working ',
-        // 'with git. We hope you enjoy this application and maybe ',
-        // 'even learn something!',
-        '이 애플리케이션은 git을 쓸 때 필요한 브랜치에 대한 개념을',
+        '이 웹사이트는 초심자들이 git을 쓸 때 필요한 브랜치에 대한 개념을',
         '탄탄히 잡게끔 도와드리기 위해 만들었습니다. 재밌게 사용해주시기를',
         '바라며, 무언가를 배워가신다면 더 기쁘겠습니다!',
-        // '',
-        // '# Attention HN!!',
-        // '',
-        // 'Unfortunately this was submitted before I finished all the help ',
-        // 'and tutorial sections, so forgive the scarcity. See the demo here:',
         '',
-        '이 애플리케이션은 [Peter Cottle](https://github.io/pcottle)님의 [LearnGitBranching](http://pcottle.github.io/learnGitBranching/)를 번역한 것입니다.',
-        '아래 데모를 먼저 보셔도 좋습니다.',
+        '# 데모!',
         '',
-        '<http://pcottle.github.io/learnGitBranching/?demo&locale=ko>'
+        '아직 데모를 보지 못하셨다면, 아래의 링크를 눌러보세요!',
+        '',
+        '[http://pcottle.github.io/learnGitBranching/?demo](?demo)',
+        '',
+        '이 대화상자를 더이상 보고싶지 않으신가요? 주소의 끝에 `?NODEMO`를 붙이시면 됩니다.',
+        '',
+        '[http://pcottle.github.io/learnGitBranching/?NODEMO](?NODEMO)',
+        '',
+        '## 번역',
+        '',
+        '번역이 마음에 들지 않으십니까? [번역에 동참](https://github.com/simnalamburt/learnGitBranching)하시거나, [원문](?locale=en_US)으로 보실 수 있습니다!'
       ]
     }
   }, {
     type: 'ModalAlert',
     options: {
       markdowns: [
-        // '## Git commands',
         '## Git 명령어',
         '',
-        // 'You have a large variety of git commands available in sandbox mode. These include',
-        '연습 모드에서 쓸 수 있는 다양한 git명령어는 다음과 같습니다',
+        '샌드박스 모드에서 쓸 수 있는 git명령어는 총 다음과 같습니다',
         '',
         ' * commit',
         ' * branch',
@@ -428,18 +425,13 @@ exports.dialog = {
     type: 'ModalAlert',
     options: {
       markdowns: [
-        // '## Sharing is caring!',
-        // '',
-        // 'Share trees with your friends via `export tree` and `import tree`',
-        // '',
-        // 'Have a great lesson to share? Try building a level with `build level` or try out a friend\'s level with `import level`',
-        // '',
-        // 'For now let\'s get you started on the `levels`...'
-        '## 공유해주세요!',
+        '## 공유하세요!',
         '',
-        '`export tree` 와 `import tree`로 여러분의 친구들에게 트리를 공유해주세요',
+        '`export tree`와 `import tree` 명령어로 당신이 만든 멋진 트리를 여러분의 친구들에게 공유하실 수 있습니다',
         '',
         '훌륭한 학습 자료가 있으신가요? `build level`로 레벨을 만들어 보시거나, 친구의 레벨을 `import level`로 가져와서 실험해보세요',
+        '',
+        '`show commands` 명령어를 쓰셔서 사용할 수 있는 모든 명령어들의 목록을 확인하실 수 있습니다. `undo`나 `reset`처럼 유용한한 명령어들이 있습니다',
         '',
         '이제 레슨을 시작해봅시다...'
       ]
