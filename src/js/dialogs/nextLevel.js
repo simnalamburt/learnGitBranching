@@ -85,6 +85,17 @@ exports.dialog = {
         'notre solution le fait en {best}.'
       ]
     }
+  }],
+  'ko': [{
+    type: 'ModalAlert',
+    options: {
+      markdowns: [
+        '## 훌륭합니다!!',
+        '',
+        '이 스테이지를 *{numCommands}*개의 커맨드로 클리어하셨습니다. ',
+        '다음번엔 {best}개의 이하의 커맨드로 풀 수 있도록 도전해보세요!'
+      ]
+    }
   }]
 };
 
