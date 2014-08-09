@@ -68,6 +68,16 @@ exports.dialog = {
         'Je crois en vous ! Vous pouvez le faire'
       ]
     }
+  }],
+  'ko': [{
+    type: 'ModalAlert',
+    options: {
+      markdowns: [
+        '## 정말로 답지를 보시겠습니까?',
+        '',
+        '전 당신을 믿어요! 할 수 있다구요!'
+      ]
+    }
   }]
 };
 
