@@ -10,6 +10,7 @@ exports.strings = {
     'es_AR': '¡Ea! Terminaste el último nivel, ¡genial!',
     'pt_BR': 'Uia! Você terminou o último nível, massa!',
     'fr_FR': 'Félicitations, vous avez réussi le dernier niveau !',
+    'ko': '와우! 맨 마지막 스테이지를 클리어하셨군요! 훌륭합니다!',
     'ru': 'Вау! Вы прошли последний уровень, отлично!'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -23,6 +24,7 @@ exports.strings = {
     'es_AR': '¿Querés seguir con *"{nextLevel}"*, el próximo nivel?',
     'pt_BR': 'Você gostaria de ir para o próximo nível: *"{nextLevel}"*?',
     'fr_FR': 'Voulez-vous passer à *"{nextLevel}"*, le prochain niveau ?',
+    'ko': '다음 스테이지 *"{nextLevel}"*로 이동하시겠습니까?',
     'ru': 'Хотите перейти на следующий уровень: *"{nextLevel}"*?'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -36,6 +38,7 @@ exports.strings = {
     'zh_TW': '太強了，您的答案符合我們的預期甚至更好！',
     'es_AR': '¡Fabuloso! Igualaste o superaste nuestra solución.',
     'fr_FR': 'Fabuleux ! Votre solution a égalé ou surpassé notre solution.',
+    'ko': '대단해요! 모범 답안의 수준이거나 더 뛰어납니다.',
     'ru': 'Отлично! Ваше решение соответсвует или превосходит наше.'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -49,6 +52,7 @@ exports.strings = {
     'es_AR': 'Fijate si podés bajarlo a usar sólo {best} comandos :D',
     'pt_BR': 'Veja se consegue reduzir para somente {best} :D',
     'fr_FR': 'Voyons si vous pouvez descendre à {best} :D',
+    'ko': '{best} 이하로 풀수있는지 도전해보세요 :D',
     'ru': 'Попробуйте, может вы сможете уложиться в {best} : D'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -61,6 +65,7 @@ exports.strings = {
     'pt_BR': 'Cuidado! O Mercurial faz coleção de lixo agressiva e precisa prunar sua árvore',
     'fr_FR': 'Attention, Mercurial supprime de façon agressive et nécessite un prune du repository',
     'de_DE': 'Achtung! Mercurial macht aggressive Garbage Collection und muss daher deinen Baum reduzieren',
+    'ko': '경고! 머큐리얼은 Aggressive GC를 수행합니다. 트리를 가지치기해주세요',
     'ru': 'Внимание! Mercurial использует агрессивный сборщик мусора и обрезает ваше дерево'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -73,6 +78,7 @@ exports.strings = {
     'pt_BR': 'A opção -A não é necessária para este aplicativo, simplesmente faça commit',
     'de_DE': 'Die Option -A wird in dieser Anwendung nicht benötigt, committe einfach!',
     'fr_FR': 'L\'option -A n\'est pas nécessaire pour cette application, simplemer commiter',
+    'ko': '여기에선 -A 옵션이 필요없습니다. 그냥 커밋하세요!',
     'ru': 'Опция -A не требуется для этого приложения, просто сделайте коммит.'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -84,6 +90,7 @@ exports.strings = {
     'pt_BR': 'Não existe um comando status para este aplicativo, já que não há staging de arquivos. Tente hg summary',
     'fr_FR': 'Il n\'y a pas de commande status pour cette application, car il n\'y a pas de fichier stagé. Essayé hg summary à la place.',
     'de_DE': 'Es gibt keinen Befehl status in dieser Anwendung, da es kein Staging von Dateien gibt. Probier stattdessen hg summary',
+    'ko': '이 샌드박스엔 파일 staging이 없으므로 status 명령어도 없습니다. 대신 hg summary를 쓰세요',
     'ru': 'Команда status не поддерживается в этом приложении, так как здесь нет файлов. Попробуйте выполнить hg summary'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -95,6 +102,7 @@ exports.strings = {
     'pt_BR': 'Eu preciso da opção {option} para esse comando!',
     'fr_FR': 'J\'ai besoin de l\'option {option} pour cette commande',
     'de_DE': 'Ich benötige die Option {option} für diesen Befehl!',
+    'ko': '그 명령어엔 {option} 옵션이 필요합니다!',
     'ru': 'Для этой команды требуется опция {option}'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -106,6 +114,7 @@ exports.strings = {
     'pt_BR': 'hg log sem -f atualmente não é suportado, use -f',
     'fr_FR': 'hg log sans -f n\'est pas supporté',
     'de_DE': 'hg log ohne -f wird aktuell nicht unterstützt, benutze bitte -f',
+    'ko': '아직은 -f 옵션 없는 hg log 명령어가 지원되지 않습니다. -f 옵션을 써주세요',
     'ru': 'hg log без опции -f в настоящий момент не поддерживается, используйте -f'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -118,6 +127,7 @@ exports.strings = {
     'es_AR': '¡Detached HEAD!',
     'pt_BR': 'Detached HEAD!',
     'fr_FR': 'head détaché !',
+    'ko': 'HEAD가 Detach된 상태입니다!',
     'ru': 'Отделенный HEAD'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -130,6 +140,7 @@ exports.strings = {
     'es_AR': 'En la rama {branch}',
     'pt_BR': 'No ramo {branch}',
     'fr_FR': 'Sur la branche {branch}',
+    'ko': '{branch} 브랜치 위에 있는 상태입니다',
     'ru': 'В ветке {branch}'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -142,6 +153,7 @@ exports.strings = {
     'es_AR': '¡Listo para commitear! (como siempre en esta demo ;-) )',
     'pt_BR': 'Pronto para commitar! (como sempre neste demo ;-) )',
     'fr_FR': 'Prêt à commit ! (comme toujours dans cette démo)',
+    'ko': '(이 샌드박스에선 항상 그렇지만) 커밋할 준비가 되었습니다!',
     'ru': 'Готово к коммиту! (как и всегда в этом демо)'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -155,6 +167,7 @@ exports.strings = {
     'es_AR': 'Otro commit más, y van...',
     'pt_BR': 'Commitando.. Vai Timão!',
     'fr_FR': 'Commit rapide. NoMaN Sux!',
+    'ko': 'Git은 진리이자 나의 빛',
     'ru': 'Быстрый коммит. А надо!'
   },
   'git-error-origin-fetch-uptodate': {
@@ -166,6 +179,7 @@ exports.strings = {
     'pt_BR': 'Já estamos na versão mais recente!',
     'zh_TW': '已經是最新的了',
     'zh_CN': '已经是最新的了',
+    'ko': '최신상태입니다!',
     'ru': 'Уже обновлено!'
   },
   'git-error-origin-fetch-no-ff': {
@@ -176,6 +190,7 @@ exports.strings = {
     'es_AR': 'Tu rama origin está desincronizada con la rama remota, por lo que no se puede hacer el fetch',
     'pt_BR': 'O fetch não pode ser realizado pois o ramo de origem está fora de sincronia com o ramo remoto',
     'fr_FR': 'Votre branche origin n\'est plus synchronisée avec la branche distante et fetch ne peut pas être appliqué. Essayez avec l\'option --force',
+    'ko': 'Origin 브랜치와 실제 리모트 브랜치의 동기화가 깨졌습니다. Fetch 명령을 수행할 수 없습니다',
     'ru': 'Ваша origin ветка не синхронизирована с удаленной веткой, невозможно выполнить fetch'
   },
   'git-error-origin-push-no-ff': {
