@@ -57,23 +57,23 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'Introduction Sequence',
       'de_DE': 'Einführung',
       'ja': 'まずはここから',
+      'ko': '기본기 익히기',
       'fr_FR': 'Séquence d\'introduction',
       'es_AR': 'Secuencia introductoria',
       'pt_BR': 'Sequência introdutória',
       'zh_CN': '基础篇',
       'zh_TW': '基礎篇',
-      'ko': '기본 명령어'
     },
     about: {
       'en_US': 'A nicely paced introduction to the majority of git commands',
       'de_DE': 'Eine gut abgestimmte Einführung in die wichtigsten Git-Befehle',
       'ja': 'gitの基本的なコマンド群をほどよいペースで学ぶ',
+      'ko': '주로 사용되는 git 명령어들을 쉽고 깔끔하게 알려드리겠습니다',
       'fr_FR': 'Une introduction en douceur à la majorité des commandes git',
       'es_AR': 'Una breve introducción a la mayoría de los comandos de git',
       'pt_BR': 'Uma breve introdução à maioria dos comandos do git',
       'zh_CN': '循序渐进介绍git主要命令',
       'zh_TW': '循序漸進地介绍 git 主要命令',
-      'ko': '브랜치 관련 주요 git 명령어를 깔끔하게 알려드립니다'
     }
   },
   rampup: {
@@ -81,6 +81,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'Ramping Up',
       'de_DE': 'Aufstieg',
       'ja': '次のレベルに進もう',
+      'ko': '다음 단계로 나아가기',
       'fr_FR': 'Montée en puissance',
       'es_AR': 'Acelerando',
       'pt_BR': 'Acelerando',
@@ -91,6 +92,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'The next serving of 100% git awesomes-ness. Hope you\'re hungry',
       'de_DE': 'Eine Portion Git-Wahnsinn zum Thema Navigation',
       'ja': '更にgitの素晴らしさを堪能しよう',
+      'ko': 'Git의 여러 놀라운 기능들을 소개시켜드리겠습니다! ',
       'fr_FR' : 'Le prochain excellent plat de pur git. J\'espère que vous êtes affamés',
       'es_AR': 'La próxima porción de 100% maravillas git. Espero que estés hambriento',
       'pt_BR': 'A próxima porção de maravilhas do git. Faminto?',
@@ -104,6 +106,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'Push & Pull -- Git Remotes!',
       'de_DE': 'Push & Pull -- entfernte Repositorys',
       'ja'   : 'Push及びPullコマンド -- Gitリモート',
+      'ko': 'Push & Pull -- 원격 저장소!',
       'fr_FR': 'Push & Pull -- dépôts gits distants !',
       'es_AR': 'Push & Pull -- Git Remotes!',
       'pt_BR': 'Push & Pull -- repositórios remotos no Git!',
@@ -114,6 +117,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'Time to share your 1\'s and 0\'s kids; coding just got social',
       'fr_FR': 'C\'est le temps de partager vos 1 et vos 0 les enfants, le code vient de devenir social.',
       'ja'   : '自分のコードをより広く公開しましょう',
+      'ko': '친구들과 함께 당신의 코드와 개발의 기쁨을 나누세요!',
       'de_DE': 'Zeit Eure 1en und 0en zu teilen; Coding mit sozialer Komponente',
       'es_AR': 'Hora de compartir sus 1\'s y 0\'s, chicos; programar se volvió social!',
       'pt_BR': 'Hora de compartilhar seus 1\'s e 0\'s, crianças; programar agora é social!',
@@ -127,6 +131,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'To Origin And Beyond -- Advanced Git Remotes!',
       'de_DE': 'Bis zum origin und noch weiter',
       'ja'   : 'Originだけではない -- Gitリモート上級編',
+      'ko': '원격 저장소, 저 너머로! -- 원격 저장소 고급 테크닉',
       'fr_FR': 'Vers l\'infini et au-delà -- dépôts distants version avancée',
       'es_AR': 'Hasta el origin y más allá -- Git Remotes avanzado!',
       'pt_BR': 'Até a origin e além -- repositórios remotos avançados!',
@@ -137,6 +142,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'And you thought being a benevolent dictator would be fun...',
       'fr_FR': 'Et vous pensiez qu\'être un dictateur bienfaisant serait amusant...',
       'ja'   : '上級者の仕事は絶えずあり',
+      'ko': '자비로운 독재자가 되어보세요',
       'es_AR': 'Y pensabas que ser un dictador benévolo sería divertido...',
       'pt_BR': 'E você achava que ser um déspota esclarecido seria mais divertido...',
       'zh_CN': '做一名仁慈的独裁者会很有趣..',
@@ -152,10 +158,10 @@ var sequenceInfo = exports.sequenceInfo = {
       'es_AR': 'Moviendo el trabajo por ahí',
       'pt_BR': 'Movendo trabalho por aí',
       'ja'   : 'コードの移動',
+      'ko': '커밋 옮기기',
       // INTL out of sync :(
       'zh_CN': '精通 rebase！',
       'zh_TW': '精通 rebase！',
-      'ko': '리베이스 완전정복!'
     },
     about: {
       'en_US': 'Get comfortable with modifying the source tree',
@@ -163,9 +169,9 @@ var sequenceInfo = exports.sequenceInfo = {
       'fr_FR': 'Soyez alaise de modifier l\'arbre Git',
       'es_AR': 'Ponete cómodo con modificar el directorio fuente',
       'pt_BR': 'Fique confortável em modificar a árvore de códigos',
+      'ko': '소스트리 고치는것에 익숙해져봅시다',
       // INTL out of sync :(
       'ja': '話題のrebaseってどんなものだろう？って人にオススメ',
-      'ko': '그 좋다고들 말하는 rebase에 대해 알아봅시다!',
       'zh_CN': '大家都在说的 rebase 究竟是神马？看看吧！',
       'zh_TW': '大家都在說的 rebase 到底是什麼阿？來看看吧！'
     }
@@ -199,6 +205,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'Advanced Topics',
       'de_DE': 'Themen für Fortgeschrittene',
       'ja'   : '上級トピック',
+      'ko': '고급 Git 테크닉',
       'fr_FR': 'Sujets Avancés',
       'es_AR': 'Temas avanzados',
       'pt_BR': 'Temas avançados',
@@ -209,6 +216,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'For the truly brave!',
       'de_DE': '... die nie ein Mensch zuvor gesehen hat.',
       'ja'   : '勇気ある人のみ！',
+      'ko': '용기있는 자 만을 위하여!',
       'fr_FR': 'Pour les plus courageux !',
       'es_AR': '¡Para los verdaderos valientes!',
       'pt_BR': 'Para os verdadeiros valentes!',
